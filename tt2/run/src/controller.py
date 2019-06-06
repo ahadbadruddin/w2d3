@@ -9,6 +9,7 @@ def infinite_loop():
     username = input('Your application username: ')
     password = input('Your application password: ')
    
+#FIXME
 
 
     stored_username= User(username, password).fetch_username()
